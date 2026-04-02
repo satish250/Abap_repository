@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZR_SATISH'
+@MappingRole: true
+define role ZR_SATISH {
+  grant select on ZR_SATISH
+  where TRUE;
+}

@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_SATISH'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_SATISH'
+  }
+}
+define service ZUI_SATISH_O4 provider contracts odata_v4_ui {
+  expose ZC_SATISH as satish;
+}

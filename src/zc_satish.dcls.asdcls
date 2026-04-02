@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZC_SATISH'
+@MappingRole: true
+define role ZC_SATISH {
+  grant select on ZC_SATISH
+  where INHERITING CONDITIONS FROM ENTITY ZR_SATISH REPLACING { ROOT WITH _BaseEntity };
+}
